@@ -12,7 +12,7 @@ const checkout = () => {
   const totalProducts = getTotalCartProducts();
   
   const handlePay = () => {
-    window.alert(`Thank you for your purchase of Rs.{totalProducts} products for a total of $Rs.{totalAmount}. Your request has been received and is being processed.`);
+    window.alert(`Thank you for your purchase of ${totalProducts} products for a total of Rs${totalAmount}. Your request has been received and is being processed.`);
     resetCart();
   };
   
@@ -117,7 +117,7 @@ const checkout = () => {
                 </select>
               </div>
               <div className="col-md-2">
-                <label htmlFor="inputZip" className="form-label">Zip</label>
+                <label htmlFor="inputZip" className="form-label">Pin</label>
                 <input type="text" className="form-control" id="inputZip" />
               </div>
               <div className="col-12 mt-5">

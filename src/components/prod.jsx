@@ -27,7 +27,7 @@ const prod = (props) => {
                     activeColor="#EA9D5A"
                 />
                 <div className="mb-3">
-                <p className="price mb-2"><span className="red">{price} </span>&nbsp;  <strike>{price * 2}$</strike></p>
+                <p className="price mb-2"><span className="red">{price} </span>&nbsp;  <strike>Rs{price * 2}</strike></p>
                 <Link to='/details' onClick={() => viewProductDetails(id)}>
                 <p className="text-center"><button className='fs-4' id='clear-cart'>View Details</button></p>
                 </Link>

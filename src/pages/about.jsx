@@ -65,7 +65,7 @@ QuickBox offers a seamless online shopping experience with an intuitive platform
     </section>
 
     <section className="about-app p-5">
-      <h2 className='fs-1 text-center mb-4' >Download our <Link>App</Link></h2>
+      <h2 className='fs-1 text-center mb-4' >Download our App</h2>
       <div className="col-12 p-5 col-md-8 mx-auto">
         {isMobile ? (
           // Render a mobile-friendly video or image here

@@ -179,7 +179,7 @@ max-width: 100%;
 .banner .back-details{
   background: url(/src/assets/images/back.jpg);
   height: 60vh;
-  background-position: top 25% right 0;
+  background-position: top 35% right 0;
   background-size: cover;
   width: 100%;
   padding: 0 80px;

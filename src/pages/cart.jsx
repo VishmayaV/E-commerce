@@ -35,14 +35,14 @@ const cart = (props) => {
         {totalAmount > 0 ?
         <div className="row">
         <div className='p-2 text-center'>
-            {/* <h2>Cart</h2> */}
+        
             
         </div>
         <div className="col-12 col-md-5 text-center">
-                {/* <h5>Product</h5> */}
+               
             </div>
             <div className="col-12 col-md-5 text-center">
-                {/* <h5>Details</h5> */}
+                
             </div>
 
     <div className="p-3">
@@ -72,7 +72,7 @@ const cart = (props) => {
             <div className="align-items-center">
               <div>
                 <p className="total-price align-items-center">
-                  <b>${totalAmount}</b>
+                  <b>Rs.{totalAmount}</b>
                 </p>
               </div>
             </div>

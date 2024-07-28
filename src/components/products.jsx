@@ -30,15 +30,13 @@ export const PRODUCTS = [
         id: 0,
         image: pr1,
         name: "Beautiful Slim Fit Dress Shirt",
-        price: 49.90,
-        brand: 'Calvin Klein',
+        price: 400,
         },
         {
         id: 1,
         image: pr2,
         name: "Stylish Men's Dri-FIT T-Shirt",
-        price: 24.90,
-        brand: 'Nike',
+        price: 500,
         status:'in stock',
         rate: '50% Off'
         },
@@ -46,8 +44,7 @@ export const PRODUCTS = [
         id: 2,
         image: pr3,
         name: "Women's Badge of Sport Tee",
-        price: 39.90,
-        brand: 'Adidas',
+        price: 600,
         status:'in stock',
         rate: '50% Off'
         },
@@ -55,8 +52,7 @@ export const PRODUCTS = [
         id: 3,
         image: pr4,
         name: "Men's 1950s Sportswear T-Shirt",
-        price: 49.90,
-        brand: 'Levi s',
+        price: 1000,
         status:'in stock',
         rate: '50% Off'
         },
@@ -64,8 +60,7 @@ export const PRODUCTS = [
         id: 4,
         image: pr5,
         name: "Men's Tech 2.0 Short Sleeve T-Shirt",
-        price: 49.90,
-        brand: 'Under Armour',
+        price: 500,
         status:'in stock',
         rate: '50% Off'
         },
@@ -73,17 +68,15 @@ export const PRODUCTS = [
         id: 5,
         image: pr6,
         name: "Women's Basic Tee, Men's Rebel Bold Tee",
-        price: 9.90,
-        brand: 'H&M',
+        price: 800,
         status:'in stock',
         rate: '50% Off'
         },
         {
         id: 6,
         image: pr7,
-        name: "Men's Cotton Classic Short Sleeve  T-Shirt",
-        price: 39.50,
-        brand: 'Puma',
+        name: "Men's Cotton Classic Short Sleeve Pant",
+        price: 200,
         status:'in stock',
         rate: '50% Off'
         },
@@ -91,64 +84,55 @@ export const PRODUCTS = [
         id: 7,
         image: pr8,
         name: "Women's Classic Fit Crewneck T-Shirt",
-        price: 29.50,
-        brand: 'Ralph Lauren'
+        price: 800,
         },
         {
         id: 8,
         image: pro1,
         name: "Stylish Slim Fit Dress Shirt",
-        price: 49.90,
-        brand: 'Calvin Klein'
+        price: 500,
         },
         {
         id: 9,
         image: pro2,
         name: "Unique Men's Dri-FIT T-Shirt",
-        price: 24.90,
-        brand: 'Nike'
+        price: 700,
         },
         {
         id: 10,
         image: pro3,
         name: "Women's Badge of Sport Tee",
-        price: 39.90,
-        brand: 'Adidas'
+        price: 300,
         },
         {
         id: 11,
         image: pro4,
         name: "Men's 1950s Sportswear T-Shirt",
-        price: 49.90,
-        brand: 'Levi s'
+        price: 500,
         },
         {
         id: 12,
         image: pro5,
         name: "Men's Tech 2.0 Short Sleeve T-Shirt",
-        price: 49.90,
-        brand: 'Under Armour'
+        price: 600,
         },
         {
         id: 13,
         image: pro6,
         name: "Women's Basic Tee, Men's Rebel Bold Tee",
-        price: 9.90,
-        brand: 'H&M'
+        price: 400,
         },
         {
         id: 14,
         image: pro7,
         name: "Men's Cotton Classic Short Sleeve Pant",
-        price: 39.50,
-        brand: 'Puma'
+        price: 800,
         },
         {
         id: 15,
         image: pro8,
         name: "Women's Classic Fit Crewneck T-Shirt",
-        price: 29.50,
-        brand: 'Ralph Lauren'
+        price: 200,
         }
 ];
 
@@ -158,8 +142,7 @@ export const  PRODUCTS1 = [
         id: 16,
         image: img1,
         name: "Slim Fit Dress Shirt",
-        price: 49.90,
-        brand: 'Calvin Klein',
+        price: 600,
         status: 'in stock',
         rate: '60% off'
         },
@@ -167,8 +150,7 @@ export const  PRODUCTS1 = [
         id: 17,
         image: img2,
         name: "Men's Dri-FIT T-Shirt",
-        price: 24.90,
-        brand: 'Nike',
+        price: 500,
         status: 'in stock',
         rate: '60% off'
         },
@@ -176,8 +158,7 @@ export const  PRODUCTS1 = [
         id: 18,
         image: img3,
         name: "Women's  Sport Tee",
-        price: 39.90,
-        brand: 'Adidas',
+        price: 900,
         status: 'in stock',
         rate: '60% off'
         },
@@ -185,17 +166,15 @@ export const  PRODUCTS1 = [
         id: 19,
         image: img4,
         name: "Sportswear Pant",
-        price: 49.90,
-        brand: 'Levi s',
+        price: 400,
         status: 'out of stock',
         rate: 'normal rates'
         },
         {
         id: 20,
         image: img5,
-        name: "Men's Tech 2.0 Short Sleeve T-Shirt",
-        price: 49.90,
-        brand: 'Under Armour',
+        name: "Men's Tech 2.0 CrewNeck T-Shirt",
+        price: 890,
         status: 'out of stock',
         rate: 'normal rates'
         },
@@ -203,8 +182,7 @@ export const  PRODUCTS1 = [
         id: 21,
         image: img6,
         name: "Women's Basic Tee, Men's Rebel Bold Tee",
-        price: 9.90,
-        brand: 'H&M',
+        price: 700,
         status: 'out of stock',
         rate: 'normal rates'
         },
@@ -212,17 +190,15 @@ export const  PRODUCTS1 = [
         id: 22,
         image: img7,
         name: "Cotton  Short Sleeve Crew Neck Frock",
-        price: 39.50,
-        brand: 'Puma',
+        price: 1200,
         status: 'out of stock',
         rate: 'normal rates'
         },
         {
         id: 23,
         image: img8,
-        name: "Women's Classic Fit Crewneck T-Shirt",
-        price: 29.50,
-        brand: 'Ralph Lauren',
+        name: "Women's Classic Fit Frock",
+        price: 900,
         status: 'out of stock',
         rate: 'normal rates'
         }

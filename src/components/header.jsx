@@ -114,14 +114,6 @@ const header = () => {
         <div className="col-md-3">
         <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-2 d-none d-md-flex d-lg-flex m-auto">
-              <div className={location.pathname === '/' ? 'active' : 'not-active'}>
-                <Link onClick={toggleMenu}
-                  to=""
-                  className="d-flex align-items-center color-nav me-3"
-                >
-                  <CgProductHunt className='me-1 fs-2' />
-                </Link>
-              </div>
               <div className={location.pathname === 'login' ? 'active' : 'not-active'}>
                 <Link onClick={toggleMenu}
                   to="/login"

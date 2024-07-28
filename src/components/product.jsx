@@ -44,7 +44,7 @@ const product = (props) => {
                     </div>
 
                     <div className='mb-4'>
-                        <p>${props.price}&nbsp; <strike className = 'text-danger'>200$</strike></p>
+                        <p>${props.price}&nbsp; <strike className = 'text-danger'>Rs.200</strike></p>
                     </div>
                     <div className='mb-5 row'>
                         <div className='col-md-6'>

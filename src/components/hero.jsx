@@ -26,7 +26,7 @@ const hero = () => {
             <div className="card text-center m-auto">
               <img src={orders1} className="card-img-top img-fluid m-auto" alt="Quick Shipping" />
               <div className="card-body">
-                <p className="card-text mb-0">Quick Shipping</p>
+                <p className="card-text mb-0">Quick Delivery</p>
               </div>
             </div>
           </div>
