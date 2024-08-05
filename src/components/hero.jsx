@@ -17,7 +17,7 @@ const hero = () => {
             <div className="card text-center m-auto">
               <img src={orders} className="card-img-top img-fluid m-auto" alt="Fast Orders" />
               <div className="card-body">
-                <p className="card-text mb-0">Fast Orders</p>
+                <p className="card-text mb-0"><h6>Speedyzone Orders</h6></p>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ const hero = () => {
             <div className="card text-center m-auto">
               <img src={orders1} className="card-img-top img-fluid m-auto" alt="Quick Shipping" />
               <div className="card-body">
-                <p className="card-text mb-0">Quick Delivery</p>
+                <p className="card-text mb-0"><h6>Quick Delivery</h6></p>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const hero = () => {
             <div className="card text-center m-auto">
               <img src={orders2} className="card-img-top img-fluid m-auto" alt="High Saves" />
               <div className="card-body">
-                <p className="card-text mb-0">High Saves</p>
+                <p className="card-text mb-0"><h6>High and Easy Saves</h6></p>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ const hero = () => {
             <div className="card text-center m-auto">
               <img src={orders3} className="card-img-top img-fluid m-auto" alt="24/7 Support" />
               <div className="card-body">
-                <p className="card-text mb-0">24/7 Support</p>
+                <p className="card-text mb-0"><h6>24/7 Support</h6></p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const hero = () => {
             <div className="card text-center m-auto">
               <img src={orders4} className="card-img-top img-fluid m-auto" alt="Online Orders" />
               <div className="card-body">
-                <p className="card-text mb-0">Online Orders</p>
+                <p className="card-text mb-0"><h6>Online Orders</h6></p>
               </div>
             </div>
           </div>

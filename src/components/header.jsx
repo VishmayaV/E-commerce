@@ -29,7 +29,7 @@ const header = () => {
   };
 
   return <>
-  <header className='navbar-top p-2'>
+  {/* <header className='navbar-top p-2'>
     <div className="container-xxl">
       <div className="row">
         <div className="d-flex align-items-center justify-content-between d-none d-md-flex">
@@ -60,8 +60,8 @@ const header = () => {
         
       </div>
     </div>
-  </header>
-  <header className='navbar-middle sticky-top p-2 p-md-2 p-lg-2'>
+  </header> */}
+  <header className='navbar-middle sticky-top p-2 p-md-2 p-lg-2 header-bg'>
   <div className="container-xxl">
     <div className="row align-items-center m-0">
       <div className="col-md-2 d-flex justify-content-center">
